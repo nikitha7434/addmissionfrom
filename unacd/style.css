@@ -1,0 +1,295 @@
+*{
+    margin:0%
+}
+.first_head{
+    width: 100%;
+    height: 60vh;
+    background-color: #ff4c68;
+    overflow: hidden;
+    }
+.head_inner{
+    padding: 5% 10%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    /* color: white; */
+  justify-content: space-between;
+  
+    
+   
+}
+.first_ele{
+
+  font-size: 3.5rem;
+  color: white;
+   
+}
+.second_ele{
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav_title{
+    color: white;
+    font-size: 1.1rem;
+}
+.head_main{
+/* background-color: black; */
+display: flex;
+height: 15rem;
+
+    
+}
+.head_left{
+    flex: 0.5;
+   display: flex;
+   flex-direction: column;
+   margin: 1.5rem;
+  /* background-color: red; */
+}
+.first-line{
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.head-right{
+    flex:0.5;
+    /* background-color: blue; */
+    position: relative;
+}
+.download1{
+background-color: black;
+border-radius: 5px;
+font-size: 1.0rem;
+color: white;
+padding: 10px 15px;
+margin-top: 20px;
+margin-right: 15px;
+
+
+}
+#download2{
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1.0rem;
+    color:white;
+    padding: 10px 15px;
+}
+.download1::before{
+   
+    color:white;
+}
+.dog_photo{
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+   
+    height: 350px;
+    /* max-width: fit-content; */
+    transform: translate(20px, 20px) rotate(30deg);
+    
+    /* position: absolute; */
+    /* display: inline-block; */
+    margin-left: 100px;
+}
+.second_section{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+ align-items: center;
+    
+  
+
+    /* background-color: lime; */
+}
+.icon1{
+    width: 150px;
+    font-size: small;
+    padding: 50px 20px;
+    text-align: center;
+}
+.icon2{
+    width: 150px;
+    font-size: small;
+    padding: 50px 20px;
+    text-align: center;
+}
+.icon3{
+    width: 200px;
+    font-size: small;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.third_section{
+    /* width: 100%; */
+    height: 35vh;
+    background-color:orangered
+
+}
+.fourth_section{
+    height: 35vh;
+    /* display: grid; */
+    /* background-color: black; */
+}
+.main-grid{
+    text-align: center;
+  margin: auto;
+    width:1000px
+}
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-width: 100px;
+    /* background-color: aqua; */
+    column-gap: 20px;
+    /* padding: 100px; */
+    margin-top: 20px;
+  
+
+}
+.col-1{
+    
+    border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+     display: grid;
+   /* padding: 10px; */
+   color: black;
+}
+.col-2{
+    
+    border: 1px solid black;
+    border-radius: 5px;;
+}
+.col-3{
+border: 1px solid black;
+border-radius: 5px;
+overflow: hidden;
+}
+#head-1{
+    background-color: rgb(235, 225, 225);
+    font-size: 20px;
+    font-weight: lighter;
+   
+}
+#last{
+    border: 1px solid black;
+    /* text-align: center; */
+    padding-bottom: 10px;
+    margin:5px;
+}
+#col-2{
+    background-color: aqua;
+    
+}
+#col-3{
+    background-color: #ff4c68;
+
+}
+
+#head-line{
+    font-size: 20px;
+    color: white;
+    
+    /* text-align: auto; */
+    width: 600px;
+    margin: 0px auto;
+    padding-top: 30px;
+    text-align-last: center;
+}
+#dog2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.dogs2{
+    text-align: center;
+}
+#line_1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+#line_2{
+    font-size: x-small;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+.fivith_section{
+    height: 20vh;
+    background-color:  #ff4c68;
+}
+#last_line{
+    color: white;
+    padding-top: 3%;
+    text-align: center;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}
+#appleImage{
+    width: 20px;
+    height: 20px;
+}
+.download_b1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.download_b2{
+  
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    
+}
+#google{
+width: 20px;
+height: 20px;
+
+
+}
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
+p{
+    font-size: x-small;
+    font-weight: lighter;
+    
+}
+.div-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+.row1{
+    color: blue;
+ padding: 3px 20px;
+
+}
+.row2{
+    font-size: 15px;
+    color: white;
+    padding: 3px 20px;
+}
+.row3{
+    font-size: 20px;
+    color: chartreuse;
+    padding: 3px 20px;
+}
+
